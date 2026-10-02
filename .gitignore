@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Tool caches
+.code-review-graph/
+
+# Downloaded assets, model weights and generated videos (recreated by the notebook)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+outputs/
+*.zip
+*.mp4
+*.onnx
+*.caffemodel
